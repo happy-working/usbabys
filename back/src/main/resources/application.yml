@@ -1,0 +1,12 @@
+spring:
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://121.43.185.49/usBabyDb?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+      username: root
+      password: wxmJEHMJ4M
+mybatis:
+   mapperLocations: classpath:/mapper/*.xml
+
+server:
+  port: 8080
+  context-path: /usbaby
